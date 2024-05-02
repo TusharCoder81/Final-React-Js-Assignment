@@ -1,0 +1,10 @@
+.failed{
+    text-align: center;
+    background-color: rgb(237,211,209);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 90vh;
+    margin: 0;
+    padding-top: 30px;
+}

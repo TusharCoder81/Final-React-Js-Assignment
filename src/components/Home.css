@@ -1,0 +1,22 @@
+.home {
+    background-image: url('bg.jpg');
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+  
+   }
+
+
+   .text{
+    padding-top: 80px;
+   }
+   
+   .list{
+    
+    font-weight: bold;
+   }
