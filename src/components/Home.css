@@ -1,6 +1,8 @@
-.home {
-    background-image: url('bg.jpg');
-    text-align: center;
+ .home-container {
+    background-image: url('../assets/bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-size: cover;
     background-position: center;
@@ -8,15 +10,43 @@
     height: 90vh;
     margin: 0;
     padding: 0;
+  }
   
-   }
-
-
-   .text{
-    padding-top: 80px;
-   }
-   
-   .list{
-    
-    font-weight: bold;
-   }
+  .home-content {
+    text-align: center;
+  }
+  
+  .home-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .home-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .home-heading {
+      font-size: 2rem;
+    }
+  
+    .home-subheading {
+      font-size: 1.3rem;
+    }
+  
+    .home-list li {
+      font-size: 1rem;
+    }
+  }
+  

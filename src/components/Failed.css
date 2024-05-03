@@ -1,10 +1,24 @@
-.failed{
-    text-align: center;
+
+.failed-container {
+    display: flex;
+   justify-content: center;
     background-color: rgb(237,211,209);
     background-size: cover;
     background-position: center;
     width: 100vw;
     height: 90vh;
     margin: 0;
-    padding-top: 30px;
-}
+    padding-top: 180px;
+  }
+  
+  .failed-message {
+    font-size: 2rem;
+   text-align: center;
+    color: #ff6347;
+  }
+  
+  @media (max-width: 768px) {
+    .failed-message {
+      font-size: 1.5rem;
+    }
+  }

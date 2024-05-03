@@ -13,7 +13,7 @@ import Failed from "./components/Failed"
 function App() {
   const router=createBrowserRouter([
     {path:'/' ,element: <><NavBar/><Home/></>},
-    { path:'/fetchdata' , element:<><NavBar/><FetchData/></>},
+    {path:'/fetchdata' , element:<><NavBar/><FetchData/></>},
     {path:'/login' ,element:<><NavBar/><Login/></>},
     {path:'/success' ,element:<><NavBar/><Success/></>},
     {path:'/failed' ,element:<><NavBar/><Failed/></>},
@@ -22,8 +22,8 @@ function App() {
   
   return (
     <>
-  <RouterProvider router={router}/>
-  </>
+       <RouterProvider router={router}/>
+    </>
   )
 
 }

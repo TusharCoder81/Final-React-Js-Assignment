@@ -1,19 +1,16 @@
 .btn-color{
     background-color: #0e1c36;
     color: #fff;
-    
   }
-  
+
   .profile-image-pic{
     height: 200px;
     width: 200px;
     object-fit: cover;
   }
   
-  
-  
   .cardbody-color{
-    background-color: #ebf2fa;
+    background-color: #b0cceb;
   }
   
   a{
@@ -22,7 +19,7 @@
 
   
   .back{
-    background-image: url('bg.jpg');
+    background-image: url('../assets/bg.jpg');
     text-align: center;
     color: white;
     background-size: cover;

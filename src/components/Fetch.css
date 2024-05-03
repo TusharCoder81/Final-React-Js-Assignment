@@ -4,8 +4,18 @@
   padding: 2rem;
   text-align: center;
   
+  
 }
-
+.bg{
+  background-image: url('../assets/bg.jpg');
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 170vh;
+    margin: 0;
+    padding: 0;
+}
 table, th, td {
   border: 1px solid;
   margin-left: auto;
@@ -13,6 +23,9 @@ table, th, td {
 }
 tr:nth-child(even) {
   background-color: #D6EEEE;
+}
+tr:nth-child(odd) {
+  background-color: #d6eedc;
 }
 
 .deletebtn {
@@ -163,3 +176,4 @@ tr:nth-child(even) {
   width: 400px;
   height: 25px;
 }
+

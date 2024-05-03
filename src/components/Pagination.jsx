@@ -8,7 +8,6 @@ export default function Pagination({totalPosts,postPerPage,setCurrentPage}) {
         pages.push(i)
 
     }
-
     return(
         <div>
           {pages.map((page,index)=>{
